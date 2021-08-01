@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  line-height: 1.6;
+  font-size: 1.5rem;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+/* side-nav  */
+
+.side-nav {
+  background-color: #024074;
+  width: 20%;
+  overflow-y: auto;
+}
+
+.side-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.person-img {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.person-img img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.person-info {
+  text-transform: uppercase;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.main-nav {
+  padding: 0 2rem;
+}
+
+.main-nav > ul {
+  padding-bottom: 2.5rem;
+}
+
+.main-nav ul li {
+  list-style: none;
+}
+
+.main-nav ul li a {
+  display: block;
+  padding: .5rem 2rem;
+  text-transform: uppercase;
+  transition: all 0.2s ease;
+}
+
+.social {
+  font-size: 1.2rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 4rem;
+}
+
+.social-link {
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+.social-link i {
+  margin-right: .5rem;
+  transition: all 0.2s ease;
+}
+
+.social-link i:hover,
+.main-nav ul li a:hover {
+  transform: translateY(-2px);
+}
+
+/* hero  */
+.hero {
+  width: 80%;
+  /* background-color: #777; */
+
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h1 {
+  font-size: 5rem;
+  color: #024074;
+}
+
+.button {
+  padding-top: 5rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 2rem;
+  background-color: #024074;
+  padding: .8rem 1.8rem;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
